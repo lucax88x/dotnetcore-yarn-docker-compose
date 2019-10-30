@@ -1,0 +1,13 @@
+{
+  "name": "dotnetcore-yarn-docker-compose",
+  "version": "1.0.0",
+  "description": "dockerfile for dotnetcore yarn docker",
+  "main": "index.js",
+  "repository": "git@github.com:lucax88x/dotnetcore-yarn-docker-compose.git",
+  "author": "lucatrazzi <lucax88x@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "docker build -t lucax88x/dotnetcore-yarn-docker-compose .",
+    "push": "docker push lucax88x/dotnetcore-yarn-docker-compose"
+  }
+}
